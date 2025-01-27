@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image:url(https://img.freepik.com/premium-vector/daisies-petals-pink-background-seamless-pattern-chamomile-flowers_345837-850.jpg?semt=ais_hybrid);
+    color: #333;
+    margin: 5;
+    padding: 5;
+}
+
+header {
+    text-align: center;
+    background-image:url(https://img.freepik.com/premium-vector/daisies-petals-pink-background-seamless-pattern-chamomile-flowers_345837-850.jpg?semt=ais_hybrid);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #ff6f61;
+}
+
+.gallery {
+    padding: 20px;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.photo-grid img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.message {
+    text-align: center;
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-image:url(https://img.freepik.com/premium-vector/daisies-petals-pink-background-seamless-pattern-chamomile-flowers_345837-850.jpg?semt=ais_hybrid);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
